@@ -1,6 +1,5 @@
 import { debounce } from './util';
 import { RequestMockAdapter } from './mock';
-import { getElementIndex } from '../../solution/presenter/auto-complete/util';
 
 /*
 * title: AutoComplete class
