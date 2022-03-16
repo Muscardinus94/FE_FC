@@ -77,7 +77,7 @@ export class DropDownList {
         // 리스트를 갱신해야하므로 innerHTML사용함.
         selector.innerHTML = render;
 
-        // q1. label position에 dropdown list 영역을 출력하시오.
+        // js. label position에 dropdown list 영역을 출력하시오.
         // TODO: Write JS code here!'
         // label position에 dropdown list 영역을 출력
         const target = document.querySelector('.dropdown-item-list-box');

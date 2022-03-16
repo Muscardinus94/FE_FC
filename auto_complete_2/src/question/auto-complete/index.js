@@ -85,7 +85,7 @@ export class AutoComplete {
         // 리스트를 갱신해야하므로 innerHTML사용함.
         selector.innerHTML = render;
 
-        // q1. 검색결과 리스트를 text input 하단에 출력하시오.
+        // js. 검색결과 리스트를 text input 하단에 출력하시오.
         // TODO: Write JS code here!'
         const inputRect = this.textinputElement.getBoundingClientRect();
         selector.style.cssText = `

@@ -40,7 +40,7 @@ export class InstantSearch {
     * description: 최초 생성할 때 input element를 생성한다. 템플릿을 관리한다.
     */
     initialize(selector, configuration) {
-        // q1. configuration을 참고하여 input element를 생성하시오. (기능과 디자인을 분리하기 위한 방법)
+        // js. configuration을 참고하여 input element를 생성하시오. (기능과 디자인을 분리하기 위한 방법)
         // TODO: Write JS code here!'
         const textinput = document.createElement("input");
         textinput.setAttribute("type", "text");
