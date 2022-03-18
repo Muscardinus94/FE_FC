@@ -41,6 +41,7 @@ const setScore = (score) => {
 
 const calculateScore = (e) => {
     const { width, left } = e.currentTarget.getBoundingClientRect();
+    console.log({width,left});
     const x = e.clientX - left;
     const scale = width / MAX_SCORE / 2;
     return Math.floor(x / scale + 1) / 2;
@@ -48,16 +49,17 @@ const calculateScore = (e) => {
 
 $stars.addEventListener("click", (e) => {
     setScore(calculateScore(e));
+    setDisplayScore(calculateScore(e));
 });
 
 $stars.addEventListener("mousemove", (e) => {
     const score = calculateScore(e);
-    setScore(calculateScore(e));
+    $score.textContent = score;
     setDisplayScore(score);
 });
 
 $stars.addEventListener("mouseleave", (e) => {
-   setDisplayScore(state.score);
+   setScore(state.score);
 });
 
 $reset.addEventListener("click", (e) => {
