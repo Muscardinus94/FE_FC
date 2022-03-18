@@ -3,7 +3,7 @@ const API = 'https://jsonplaceholder.typicode.com/posts';
 
 
 // Axios : https://github.com/axios/axios
-// q2-2. Axios Refactoring
+// react-2. Axios Refactoring
 // 템플릿
 const printPosts = res => {
     const {data} = res;

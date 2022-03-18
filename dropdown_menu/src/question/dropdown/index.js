@@ -98,7 +98,7 @@ export class DropDownList {
     eventBinding() {
         // backdrop 영역 클릭 시 이벤트
         this.backdrop.addEventListener('click', () => {
-            // q2. backdrop 영역 클릭 시의 이벤트를 처리하시오.
+            // react. backdrop 영역 클릭 시의 이벤트를 처리하시오.
             // TODO: Write JS code here!'
             this.backdrop.style.cssText = `
                 display: none;
