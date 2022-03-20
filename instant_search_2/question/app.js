@@ -7,7 +7,7 @@ const $infoParagraph = document.querySelector('.InfoParagraph');
 
 // Write code here.
 $searchInput.addEventListener("keyup", async (e) => {
-    const query = event.target.value;
+    const query = e.target.value;
 
     if (!query) return;
 
